@@ -1,0 +1,25 @@
+
+.logo {
+    width:250px;
+}
+
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+
+body {
+  padding-top: 25px;
+}
+
+.botones a {
+    margin-left: 5px;
+    background-color: #343a40;
+    border-radius: 5px;
+}
+
+.botones a:hover {
+    background-color: #6b8e23;
+}
+
+

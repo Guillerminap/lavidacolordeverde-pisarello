@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="Author" content="Guillermina Pisarello">
+        <title>La Vida Color de Verde · Ebook</title>
+        <link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+        <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/offcanvas-navbar/">
+    </head>
+    <body>
+        <header>
+            <div class="d-flex flex-column flex-md-row align-items-center mb-4 border-bottom px-5 pb-3">
+              <a href="#" class="d-flex align-items-center text-decoration-none">
+                <img class="logo" src="img/images/logo.png" />
+              </a>
+        
+              <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto botones py-2">
+                <a class="me-3 px-3 py-2 text-light text-decoration-none" href="index.html">home</a>
+                <a class="me-3 px-3 py-2 text-light text-decoration-none" href="nosotros.html">nosotros</a>
+                <a class="me-3 px-3 py-2 text-light text-decoration-none" href="recetas.html">recetas</a>
+                <a class="me-3 px-3 py-2 text-light text-decoration-none" href="galeria.html">galeria</a>
+                <a class="px-3 py-2 text-light text-decoration-none" href="ebook.html">ebook</a>
+              </nav>
+            </div>
+        
+            <div class="pricing-header pb-md-4 mx-auto text-center">
+              <img src="img/images/main-image.jpg" />
+            </div>
+          </header>
+          <div class="container">
+         <main>
+          <div class="py-5 text-center">
+            <img class="d-block mx-auto mb-4" src="img/images/logo.png" alt="" width="250">
+            <p class="lead">Para descargar toda la información en formato de e-book, <br>completa el siguiente formulario y recibirás el link en tu casilla de correo. <br>Gracias!</p>
+          </div>
+      
+          <div class="row g-5">
+            <div class="col-md-7 col-lg-8">
+              <h4 class="mb-3">Dirección de envío</h4>
+              <form class="needs-validation" novalidate>
+                <div class="row g-3">
+                  <div class="col-sm-6">
+                    <label for="firstName" class="form-label">Nombre<sup>*</sup></label>
+                    <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                    <div class="invalid-feedback">
+                      El primer nombre es requerido
+                    </div>
+                  </div>
+      
+                  <div class="col-sm-6">
+                    <label for="lastName" class="form-label">Apellido<sup>*</sup></label>
+                    <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                    <div class="invalid-feedback">
+                      El apellido es requerido
+                    </div>
+                  </div>
+      
+      
+                  <div class="col-12">
+                    <label for="email" class="form-label">Email<sup>*</sup></label>
+                    <input type="email" class="form-control" id="email" placeholder="ejemplo@tuemail.com">
+                    <div class="invalid-feedback">
+                      Por favor ingresa un email válido
+                    </div>
+                  </div>
+      
+                <hr class="my-4">
+      
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="save-info">
+                  <label class="form-check-label" for="save-info">Acepto los términos y condiciones</label>
+                </div>
+      
+                <hr class="my-4">
+      
+                <h4 class="mb-3">¿Deseas recibir información a tu correo?</h4>
+      
+                <div class="my-3">
+                  <div class="form-check">
+                    <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
+                    <label class="form-check-label" for="credit">Si</label>
+                  </div>
+                  <div class="form-check">
+                    <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
+                    <label class="form-check-label" for="debit">No</label>
+                  </div>
+                 
+                </div>
+      
+                <hr class="my-4">
+      
+                <button class="w-100 btn btn-primary btn-lg" type="submit">Enviar Formulario</button>
+              </form>
+            </div>
+          </div>
+        </main>
+        </div>
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+              <p class="col-md-4 mb-0 text-muted">&copy; 2022 La vida Color de Verde</p>
+
+              <ul class="nav col-md-4 justify-content-center">
+                <a href="#"><img style="width: 20px; margin-right: 15px;" src="img/images/001-instagram.png" /></a>
+                <a href="#"><img style="width: 20px; margin-right: 15px;" src="img/images/002-facebook.png" /></a>
+                <a href="#"><img style="width: 20px; margin-right: 15px;" src="img/images/003-twitter.png" /></a>
+                <a href="#"><img style="width: 20px; margin-right: 15px;" src="img/images/004-youtube.png" /></a>
+              </ul>
+              
+          
+              <ul class="nav col-md-4 justify-content-end">
+                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">home</a></li>
+                <li class="nav-item"><a href="nosotros.html" class="nav-link px-2 text-muted">nosotros</a></li>
+                <li class="nav-item"><a href="recetas.html" class="nav-link px-2 text-muted">recetas</a></li>
+                <li class="nav-item"><a href="galeria.html" class="nav-link px-2 text-muted">galeria</a></li>
+                <li class="nav-item"><a href="ebook.html" class="nav-link px-2 text-muted">ebook</a></li>
+              </ul>
+            </footer>
+          </div>
+    </body>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/offcanvas.js"></script>
+</html>
